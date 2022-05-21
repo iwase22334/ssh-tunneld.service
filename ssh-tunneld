@@ -1,0 +1,4 @@
+#!/bin/sh
+COMMAND="ssh -N -f -R 19999:localhost:22 bitnami@52.199.231.224"
+#pgrep -f -x "$COMMAND" > /dev/null 2>&1 || $COMMAND
+pgrep -f -x "$COMMAND" || $COMMAND

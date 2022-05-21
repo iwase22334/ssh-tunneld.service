@@ -1,0 +1,10 @@
+[Unit]
+Description = ssh tunnel daemon
+
+[Service]
+ExecStart = /usr/local/bin/ssh-tunneld
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
