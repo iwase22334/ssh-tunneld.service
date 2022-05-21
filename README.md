@@ -1,2 +1,15 @@
 # ssh-tunneld.service
-ssh tunneling service
+
+## Usage
+
+```
+sudo ./install.sh
+```
+
+```
+sudo systemctl start ssh-tunneld.service
+```
+
+```
+sudo systemctl status ssh-tunneld.service
+```
