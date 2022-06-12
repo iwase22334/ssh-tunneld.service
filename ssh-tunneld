@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BASTION=bitnami@52.199.231.224
+BASTION=ubuntu@52.199.231.224
 REVERSE=19999:localhost:22
 
 ssh -N -R $REVERSE $BASTION || sleep 15
